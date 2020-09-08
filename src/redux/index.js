@@ -5,3 +5,8 @@ export {
   decreaseValue,
   resetValue,
 } from './counter/counterActions'
+export {
+  fetchUsersRequest,
+  fetchUsersSuccess,
+  fetchUsersFailure,
+} from './user/userActions'
